@@ -1,5 +1,5 @@
 require 'active_support'
-#require 'active_support/core_ext'
+require 'active_support/core_ext'
 require "sum_strings/version"
 require 'logger'
 
