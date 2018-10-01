@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["nezir.zahirovic@gmail.com"]
 
   spec.summary       = %q{Gem for summing string values from arrays.}
-  spec.description   = %q{With this gem you are able to sum array of strings values. Primary ment for summing array of hours in format ["20:20","10:10"].strings_to_sum(':'). }
+  spec.description   = %q{With this gem you are able to sum array of strings values. Primary ment for summing array of hours in format ["20:25","10:10"].strings_to_sum(':') which will result as "30:35" hours/minutes. }
   spec.homepage      = "https://github.com/nezirz/sum_strings"
   spec.license       = "MIT"
 
