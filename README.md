@@ -1,9 +1,7 @@
 # SumStrings
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sum_strings`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
+Simple gem which allows you to sum array of strings values. Primary ment for summing array of hours in format `["20:25","10:10"].strings_to_sum(':')`.
+Which will result in a string `30:35`
 ## Installation
 
 Add this line to your application's Gemfile:
