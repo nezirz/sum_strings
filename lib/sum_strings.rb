@@ -1,5 +1,5 @@
 require 'active_support'
-require 'active_support/core_ext'
+#require 'active_support/core_ext'
 require "sum_strings/version"
 require 'logger'
 
@@ -10,7 +10,7 @@ class Array
 
       return nil if split_char.nil? 
       return nil if self.empty? 
-      
+
       begin   
           result = self.sum do |s|
           h, m = s.split(split_char).map(&:to_i)
