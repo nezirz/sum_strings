@@ -1,7 +1,10 @@
 # SumStrings
-
+ 
 Simple gem which allows you to sum array of strings values. Primary ment for summing array of hours in format `["20:25","10:10"].strings_to_sum(':')`.
-Which will result in a string `30:35`
+Which will result in a string `30:35`.
+
+Code solution used by sample provided on stackoverflow by Cary Swoveland, thanks.
+
 ## Installation
 
 Add this line to your application's Gemfile:
