@@ -22,7 +22,29 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Sample for summing array of string values like hours.
+We have array with some hours which we need to sum.
+Sample array:
+`working_hours = ["09:20","5:10","08:00","23:20","10:13"]`
+
+Summing this array we can do like:
+`working_hours.sum_strings(':')`
+
+The gem is extended method of ruby Array calss so calling method `sum_strings(':')` with providing split char as parameter.
+
+Result would be:
+`56:3`
+
+In case that you have some other split char you just need to provide it to a method.
+Sample:
+`working_hours = ["09-20","5-10","08-00","23-20","10-13"]`
+`sum_strings('-')`
+
+Here is a simple project where you can see practical usage of the gem `https://github.com/nezirz/use_sum_strings`
+
+This is how the summing looks:
+![alt text](https://raw.github.com/nezirz/sum_strings/master/sum_strings.png)
+
 
 ## Development
 
@@ -32,7 +54,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/sum_strings. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at `https://github.com/nezirz/sum_strings`. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
